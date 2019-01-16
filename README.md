@@ -8,8 +8,9 @@
 * Learn how to do OOP in PYthon
 * Learn how to work with data structures in Python (including debugging!)
 * Learn how to work with global variables in Python
-* Find a bug in my original Java code
+* Find a bug in my original Java code (corresponding to _line 101_ in 'binarySearchTree.py')
 * Learn how to raise exceptions for bad input
+* Learn how to share data/communicate across multiple Python files
 * Learn how to manipulate .csv files in Python
 * Get more practice with __init__ and other special functions
 * Realize that Java and Python use different algorithms as their default "hash" functions!
