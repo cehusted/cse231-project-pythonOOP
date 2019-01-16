@@ -57,7 +57,7 @@ class LinkedList:
 
     #-------------Handles printing Hash Table contents to output file-----------------
     def printContents(self):
-        c = csv.writer(open("C:/eclipse/java-oxygen2/eclipse/workspace/FinalProject/src/output-file.csv", "wb"))
+        c = csv.writer(open("PATH_TO_'output-data.csv'_GOES_HERE", "wb"))
         for index in range(hashnum):
             npointer = TBArray[index]
             while npointer is not None:
