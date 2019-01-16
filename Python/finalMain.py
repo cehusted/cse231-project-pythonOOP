@@ -8,7 +8,7 @@ class FinalMain:
     def hashTable(self):
         hashList = TelephoneBook()
 
-        with open("C:/eclipse/java-oxygen2/eclipse/workspace/FinalProject/src/input-data10.csv") as csvFile:
+        with open("PATH_TO_'input-data.csv'_GOES_HERE") as csvFile:
             data = csv.reader(csvFile)
             for row in data:
                 name = row[0]
@@ -67,7 +67,7 @@ class FinalMain:
     def bst(self):
         bstList = TelephoneBook()
 
-        with open("C:/eclipse/java-oxygen2/eclipse/workspace/FinalProject/src/input-data10.csv") as csvFile:
+        with open("PATH_TO_'input-data.csv'_GOES_HERE") as csvFile:
             data = csv.reader(csvFile)
             for row in data:
                 name = row[0]
